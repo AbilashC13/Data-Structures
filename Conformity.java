@@ -50,9 +50,8 @@ public class Main
 			}
 			if(maxcount==count)
 				ans+=count;
-			else if(maxcount<count){
+			else if(maxcount<count)
 				ans=count;
-			}
 			System.out.println(ans);
 		}
 	}

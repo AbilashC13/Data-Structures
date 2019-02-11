@@ -15,15 +15,11 @@ public class Main
 			{
 				int[] a=new int[5];
 				for(int j=0;j<5;j++)
-				{
 					a[j]=sc.nextInt();
-				}
 				Arrays.sort(a);
 				long c=0;
 				for(int j=0;j<5;j++)
-				{
 					c=c*1000+a[j];
-				}
 				abc[i]=c;
 			}
 			Arrays.sort(abc);

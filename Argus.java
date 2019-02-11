@@ -11,7 +11,7 @@ class Argus
             List<Integer> al = new ArrayList<Integer>();
             while(sc.hasNext())
             {
-                   String str = sc.next();ui
+                   String str = sc.next();
                    if(str.equals("#")) break;
                    int n = sc.nextInt();
                    int m = sc.nextInt(); 

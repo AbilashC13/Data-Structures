@@ -23,10 +23,10 @@ class Main
     		    {
     		        if (stOK)
     		            st.push(b);
-    				if (qOK) 
-    				    q.offer(b);
-    				if (pqOK)
-    				    pq.offer(b);
+    			if (qOK) 
+    			    q.offer(b);
+    			if (pqOK)
+    			    pq.offer(b);
     		    }
     		    else if (a==2)
     		    {

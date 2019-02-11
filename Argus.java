@@ -12,7 +12,8 @@ class Argus
             while(sc.hasNext())
             {
                    String str = sc.next();
-                   if(str.equals("#")) break;
+                   if(str.equals("#"))
+                      break;
                    int n = sc.nextInt();
                    int m = sc.nextInt(); 
                    a.add(n);

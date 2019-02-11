@@ -3,21 +3,21 @@ import java.util.*;
 
 class Argus {
    public static void main(String args[]){
-            Scanner input = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
             List<Integer> a = new ArrayList<Integer>();
             List<Integer> b = new ArrayList<Integer>();
             List<Integer> al = new ArrayList<Integer>();
-            while(input.hasNext()){
-                   String str = input.next();
+            while(sc.hasNext()){
+                   String str = sc.next();ui
                    if(str.equals("#")) break;
-                   int n = input.nextInt();
-                   int m = input.nextInt(); 
+                   int n = sc.nextInt();
+                   int m = sc.nextInt(); 
                    a.add(n);
                    b.add(m);
                    al.add(m);
                  }
             
-                   int limit = input.nextInt(); 
+                   int limit = sc.nextInt(); 
                    int index = 0,count = 0; 
                    for(int i=0;i<limit;i++){
                              index = smallest(b,al,a);   
